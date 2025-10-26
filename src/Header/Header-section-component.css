@@ -1,0 +1,14 @@
+.header-section-logo-container {
+  perspective: 1000px;
+}
+
+.header-section-logo {
+  display: block;
+  width: 40px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.header-section-logo:hover {
+  transform: rotateY(360deg);
+}
