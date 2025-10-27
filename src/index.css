@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+  --main-background-color: #f8faff;
+  --secondary-background-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  --main-text-color: #051937;
+  --secondary-text-color: #a8eb12;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +14,13 @@
 }
 
 body {
-  font-family: "Noto Sans", sans-serif;
-  color: #333;
+  font-family: "Oswald", sans-serif;
+  color: var(--main-text-color);
 }
 
 .wrapper {
   margin: auto;
-  width: 290px;
+  width: 300px;
 }
 
 @media (width >=576px) {
@@ -35,5 +44,11 @@ body {
 @media (width >=1200px) {
   .wrapper {
     width: 1140px;
+  }
+}
+
+@media (width >=1440px) {
+  .wrapper {
+    width: 1400px;
   }
 }
