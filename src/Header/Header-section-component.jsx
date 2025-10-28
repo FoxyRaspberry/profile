@@ -1,4 +1,3 @@
-import reactLogo from '../assets/react.svg'
 import './Header-section-component.css'
 
 export function Header () {
