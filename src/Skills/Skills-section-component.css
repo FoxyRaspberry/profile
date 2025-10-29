@@ -10,9 +10,23 @@
   font-size: 1.5em;
 }
 
+.skills-section__skill-card-container {
+  margin-top: 20px;
+}
+
+.skills-section__skill-card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
 @media (width >=576px) {
-  .skills-section__title {
-    font-size: 40px;
+  .skills-section__skill-card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
@@ -23,8 +37,12 @@
 }
 
 @media (width >=992px) {
-  .skills-section__title {
+    .skills-section__title {
     font-size: 48px;
+  }
+
+  .skills-section__skill-card-list {
+    flex-wrap: nowrap;
   }
 }
 
@@ -39,3 +57,4 @@
     font-size: 56px;
   }
 }
+
