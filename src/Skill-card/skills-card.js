@@ -13,41 +13,51 @@ export const skillsCard = [
   {
     id: 1,
     image: htmlImage,
+    name: 'HTML',
   },
   {
     id: 2,
     image: cssImage,
+    name: 'CSS',
   },
   {
     id: 3,
     image: jsImage,
+    name: 'JavaScript',
   },
-  {
+    {
     id: 4,
-    image: reactImage,
+    image: vscodeImage,
+    name: 'VS Code',
   },
   {
     id: 5,
     image: figmaImage,
+    name: 'Figma',
   },
   {
     id: 6,
-    image: wordpressImage,
+    image: githubImage,
+    name: 'GitHub',
   },
   {
     id: 7,
-    image: vscodeImage,
-  },
-  {
-    id: 8,
     image: viteImage,
+    name: 'Vite',
+  },
+    {
+    id: 8,
+    image: reactImage,
+    name: 'React',
   },
   {
     id: 9,
-    image: githubImage,
+    image: wordpressImage,
+    name: 'WordPress',
   },
   {
     id: 10,
     image: angularImage,
+    name: 'Angular',
   },
 ]
