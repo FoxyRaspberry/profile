@@ -1,6 +1,6 @@
 import './Skills-section-component.css';
-import { SkillCard } from '../Skill-card/Skill-card-component.jsx';
-import { skillsCard } from '../Skill-card/skills-card.js';
+import { SkillCard } from './Skill-card/Skill-card-component.jsx';
+import { skillsCard } from './Skill-card/skills-card.js';
 
 export function Skills() {
   return (
